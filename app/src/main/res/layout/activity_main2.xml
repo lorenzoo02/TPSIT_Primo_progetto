@@ -8,17 +8,31 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="453dp" />
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="300dp"
+        android:text="Questa è la seconda activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="316dp"
-        android:layout_height="305dp"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="50dp"
+        android:layout_width="262dp"
+        android:layout_height="340dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
